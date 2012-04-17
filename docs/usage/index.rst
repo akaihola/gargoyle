@@ -67,6 +67,9 @@ If you prefer to use templatetags, Gargoyle provides a helper called ``ifswitch`
 	    "my switch name" is active!
 	{% endifswitch %}
 
+Note that you must quote multi-word switch names both in the template tag and
+when creating the switch in the web interface.
+
 Switch Inheritance
 ~~~~~~~~~~~~~~~~~~
 
