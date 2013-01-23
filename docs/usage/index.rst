@@ -73,7 +73,7 @@ when creating the switch in the web interface.
 Switch Inheritance
 ~~~~~~~~~~~~~~~~~~
 
-Switches utilizing the named pattern of ``parent:child``` will automatically inherit state from their parents. For example,
+Switches utilizing the named pattern of ``parent:child`` will automatically inherit state from their parents. For example,
 if your switch, ``parent:child`` is globally enabled, but ``parent`` is disabled, when ``is_active('parent:child')`` is called
 it will return ``False``.
 
